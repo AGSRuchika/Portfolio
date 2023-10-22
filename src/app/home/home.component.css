@@ -1,0 +1,88 @@
+.columns-container {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.column1{
+  width: 25%;
+  background-color: #bd5d38!important;
+  display:inline-block;
+  border-radius: 25px;
+  text-align: center;
+  height: 585px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-top: 5px;
+  margin-left: 2px;
+}
+
+.column2{
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+  margin-left: 25%;
+}
+
+.column2 h1, .column2 h3, .column2 p {
+  margin-left: 20px;
+}
+
+h1,h3{
+  text-transform:uppercase;
+}
+
+img{
+  padding-top: 50px;
+  width: 40%;
+  height: 30%;
+}
+
+.point{
+  padding-top: 20px;
+  text-transform:uppercase;
+  list-style-type: none;
+}
+
+a:active{
+  color: white;
+}
+
+a:hover{
+  color: white;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: rgba(255,255,255,.5);
+}
+
+p{
+  color: #868e96;
+}
+
+#experience, #skills, #education, #projects, #extra, #certifications, #about {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+#about{
+  padding-top: 10rem;
+}
+
+.email{
+  color: #bd5d38!important;
+}
+
+.email:hover{
+  color: blue!important;
+}
+
+#skills li, #certifications li,#extra li, #experience li, #projects li{
+  padding-top: 10px;
+  color: #868e96;
+  font-size: 1.1rem;
+}
+
