@@ -11,6 +11,7 @@
   border-radius: 25px;
   text-align: center;
   height: 585px;
+  height: 100%;
   position: fixed;
   top: 0;
   left: 0;
@@ -63,8 +64,19 @@ p{
   color: #868e96;
 }
 
-#experience, #skills, #education, #projects, #extra, #certifications, #about {
+#skills, #projects, #extra, #certifications {
+  margin-top: 100px;
+  margin-bottom: 200px;
+  padding-top: 100px;
+}
+
+#experience, #education {
+  padding-top: 5px;
   margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+#about {
   margin-bottom: 200px;
 }
 
