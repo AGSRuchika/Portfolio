@@ -1,4 +1,5 @@
 # Portfolio
+<<<<<<< HEAD
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.5.
 
@@ -25,3 +26,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+=======
+Developed Using Angular 15, HTML, CSS
+>>>>>>> 0430887a41a828db294153904100b1ecff2c4f57
